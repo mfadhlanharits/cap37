@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "prefab-pride-312605",
+  "private_key_id": "c71e83fcdd28b21113618f9893609c0d1cd57323",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDbDIuylnDYGVHz\nLL7LvCNrk/UHKR2H3IiLcdTxsspp4m9u+WTFDt5uTqTUkNm42ibNJqLSW56u8vf1\nS/HmHz7fy68ffqrviQ7//wXwp0NrTbw6ywQWJzEvuaFBYc3N28rV20Oi1zBiCOX1\nTpwiRI/p+57Svkc6e7PxGV5YFqet2rCVnDEiXzvkbV5+xR8J4EnR2Yyrc5LukeOf\n+L1vrB6rYParXM4YbrlQQQiIR2X2Vd8hClATF02qHeEdI4W/xAOdOqrkw/L7gYq5\ngC1XcBuKYoOU8hn5OBFycSpzbr9kobPELjmrtSRAiauz2QD7/ODKk9OgxHEJhfRj\nHHwJfKynAgMBAAECggEAAOd6S3FPp3eId3rNvw5gDeD7ecae6Ib1SZJOi17BCdqA\nqyNASvGYtc+9adtzr1U/MysfuB2E0nb/WjXOsSxujSDjHaVIvZagA4U3rsP7ZxZJ\nAFVdJV3LOgH4zgYckPYX89eSKSOgu8uSMkMXkvZJI3F6KfLGin7Zhbdv20L/CDMX\n8kRidiKQ/CMte/jhJ6IHFn8EtH3vPrm005LHUqsjnUsvWRrXDhQHt5gf1llNb+j5\nEKh1fU/aWRj+DG0YG9Kn1d0jN8KF97ArxdJjbf1CzYNY3K1R8IQsMSv74XcH5VAe\nYaaSzEAwyC8UQmTGzsBexVyVX6sF2EpfNdH6AHamSQKBgQDzBQTyUiwgt0gNvbMD\ni9hcCWPbH+R1eLJwSQFwf2E4Am6OBI7Td6aliYYkZAyevYXhoDy5B/X6YTeLfbhJ\n1FHBXi9mqVg1Xl+fwmchpe9+UZSUpperirkidJxwUTDUW66FOHwBAZNwpkhvRnv1\nRQH2WEGHS5WnJf9APW8KkmQRXQKBgQDmv8JdGpiw+I5gwUh7h3z6CNGEJCRSVEwy\ngSTD3BgzkWx8Th7RvIh6xtMH4CGZCsebxZv3ALsdDxOQAhaCBhwisa6s3d8cxD6m\nVoVaYRT9O+QfVgzrf0GIk8p9pbF4Q4z+OYXSduA1nStixx2tJHhyBSmUZxC+2Vts\njFAKPKUB0wKBgDWG3n8NMGEIXZuBNAPM8pvbCZ6DGMvzCMKIogOIWv5+MqGfSWI0\nkYUWlHBBhTIVpn56z8Ulhr1eWmCkEUpZtKQ1vZUMKbyfi8phhFu589VL3MEdLH0B\nMiPvsWFf0LSFeRwow89o7HO8fGneCYGNcJA1AkHtmQnW6bDZlzKp6daVAoGAEljv\nAG4r8+5fi8vyknfsdQkcd7BT/wPa5y0jmjs25WrLwHqJss2V4IVMpFSq9ztHMdid\nlR9GwYHAYXP5DC+mLxAHvpEJu4TTInDAu7X6cERB2EgEUPlWYaC2uhThrplYbaJv\nRJPVMg4kM/93GZxLw20rqDQlvbcUsOXbO2UlDacCgYB6p/ECvw1/Lta9/u3pgMhV\ndKJM2DeH2tsB61agSucF0lKCGgavlPDrUqzbfhEa7JTTazKae/gyC98P3ZbKGjRh\nXsLk+VhFcXrPqLpd0nBZ45Mz5oOU1v3v6YZsFeg6Ylr8ZCMHbxW9pdX01fKZJyOG\noFkeWSylMeNkXsCooQE9XQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "mlmodelaccess@prefab-pride-312605.iam.gserviceaccount.com",
+  "client_id": "100839183852939421627",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mlmodelaccess%40prefab-pride-312605.iam.gserviceaccount.com"
+}
