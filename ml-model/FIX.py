@@ -18,6 +18,7 @@ plt.style.use('fivethirtyeight')
 
 # In[2]:
 
+
 #Load dataset
 from keras.datasets import fashion_mnist
 (x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
@@ -173,7 +174,7 @@ model.fit(x_train, y_train_one_hot, epochs=10, verbose=1, batch_size = 32, valid
 model.evaluate(x_test, y_test_one_hot)[1]
 
 
-# In[23]:
+# In[58]:
 
 
 model.save('final_model.h5')
@@ -317,4 +318,22 @@ plot_image(i, predictions[i], test_labels, test_images)
 plt.subplot(1,2,2)
 plot_value_array(i, predictions[i],  test_labels)
 plt.show()
+
+
+# In[53]:
+
+
+pip list| grep Keras
+
+
+# In[57]:
+
+
+pip list | grep tensorflow
+
+
+# In[ ]:
+
+
+
 
