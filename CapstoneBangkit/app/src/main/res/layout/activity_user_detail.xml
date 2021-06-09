@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserDetailActivity"
+    android:background="@color/cream">
+
+
+    <ImageView
+        android:id="@+id/iv_detailikm"
+        android:layout_width="159dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_detail_namaikm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/segoeui"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="nama_ikm"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_detail_kota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="@font/segoeui"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="kota"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_detail_kategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/segoeui"
+        android:padding="10dp"
+        android:text="kategori"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_detail_description"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/segoeui"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="5dp"
+        android:padding="10dp"
+        android:text="description"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_produk"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_instagram"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/cream"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_whatsapp"
+        app:srcCompat="@drawable/instagramlogo" />
+
+    <TextView
+        android:id="@+id/tv_instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/segoeui"
+        android:text="instagram"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_instagram"
+        app:layout_constraintTop_toBottomOf="@+id/tv_whatsapp" />
+
+    <ImageView
+        android:id="@+id/iv_whatsapp"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/cream"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_description"
+        app:srcCompat="@drawable/whatsapplogo" />
+
+    <TextView
+        android:id="@+id/tv_whatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/segoeui"
+        android:text="whatsapp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_whatsapp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_description" />
+
+    <ImageView
+        android:id="@+id/iv_tokopedia"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/cream"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_instagram"
+        app:srcCompat="@drawable/tokopedialogo" />
+
+    <TextView
+        android:id="@+id/tv_tokopedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/segoeui"
+        android:text="tokopedia"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:autoLink="web"
+        app:layout_constraintStart_toEndOf="@+id/iv_tokopedia"
+        app:layout_constraintTop_toBottomOf="@+id/tv_instagram" />
+
+    <ImageView
+        android:id="@+id/iv_shopee"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/cream"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tokopedia"
+        app:srcCompat="@drawable/shopeelogo" />
+
+    <TextView
+        android:id="@+id/tv_shopee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:autoLink="web"
+        android:fontFamily="@font/segoeui"
+        android:text="shopee"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_shopee"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tokopedia" />
+
+    <ImageView
+        android:id="@+id/iv_bukalapak"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@color/cream"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_shopee"
+        app:srcCompat="@drawable/bukalapaklogo" />
+
+    <TextView
+        android:id="@+id/tv_bukalapak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/segoeui"
+        android:text="bukalapak"
+        android:autoLink="web"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_bukalapak"
+        app:layout_constraintTop_toBottomOf="@+id/tv_shopee" />
+
+    <ImageView
+        android:id="@+id/iv_blibli"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@color/cream"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_bukalapak"
+        app:srcCompat="@drawable/bliblilogo" />
+
+    <TextView
+        android:id="@+id/tv_blibli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="blibli"
+        android:autoLink="web"
+        android:fontFamily="@font/segoeui"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_blibli"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bukalapak" />
+
+    <ImageView
+        android:id="@+id/iv_lazada"
+        android:layout_width="60dp"
+        android:background="@color/cream"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_blibli"
+        app:srcCompat="@drawable/lazadalogo" />
+
+    <TextView
+        android:id="@+id/tv_lazada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="lazada"
+        android:autoLink="web"
+        android:fontFamily="@font/segoeui"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/iv_lazada"
+        app:layout_constraintTop_toBottomOf="@+id/tv_blibli" />
+
+    <TextView
+        android:id="@+id/tv_produk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/segoeui"
+        android:text="Produk :"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

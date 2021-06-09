@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "404159117546",
+    "firebase_url": "https://prefab-pride-312605-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "prefab-pride-312605",
+    "storage_bucket": "prefab-pride-312605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404159117546:android:3de9b9d62a83a404657f93",
+        "android_client_info": {
+          "package_name": "com.example.capstonebangkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404159117546-4la6rj3rjqe36956fbejdbudt1dashlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZdd4fprHMczce9YEWI1bG4KwJjZHhefo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404159117546-4la6rj3rjqe36956fbejdbudt1dashlr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404159117546:android:5c2982c457a389d3657f93",
+        "android_client_info": {
+          "package_name": "com.example.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404159117546-4la6rj3rjqe36956fbejdbudt1dashlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZdd4fprHMczce9YEWI1bG4KwJjZHhefo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404159117546-4la6rj3rjqe36956fbejdbudt1dashlr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
