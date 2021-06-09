@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UploadActivity">
+    tools:context=".UploadActivity"
+    android:background="@color/cream">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_select_image"
         android:layout_width="400dp"
         android:layout_height="45dp"
-        android:layout_marginStart="4dp"
         android:layout_marginTop="32dp"
         android:text="Select an image"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,12 +21,12 @@
         android:id="@+id/tv_upload_hint"
         android:layout_width="339dp"
         android:layout_height="27dp"
-        android:layout_marginStart="36dp"
         android:layout_marginTop="12dp"
         android:gravity="center"
         android:text="Please select an Image!"
         android:textColor="@color/black"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_select_image" />
 
@@ -83,9 +84,9 @@
         android:id="@+id/btn_upload_and_connect"
         android:layout_width="400dp"
         android:layout_height="45dp"
-        android:layout_marginStart="4dp"
         android:layout_marginTop="200dp"
         android:text="@string/connect_to_server_upload"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
